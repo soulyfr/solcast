@@ -1,0 +1,19 @@
+.navbar  {
+    height: 280px;
+    margin: 0;
+    /* background-color: rgb(189, 113, 0); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.904)), url("../../assets/peakpx1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.solcast {
+    margin-top: 65px;
+    color: white;
+    font-size: 3em;
+    text-shadow: 0 1px 5px white;
+}
+
+

@@ -1,0 +1,32 @@
+.image-slider {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sliding-image{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.39);
+}
+
+.slide-button {
+    text-align: center;
+    line-height: 0px;   
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    padding: 0;
+}
+
+.slide-button:focus {
+    outline: none;
+}

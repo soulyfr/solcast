@@ -1,0 +1,41 @@
+.avg-temp {
+    min-height: 100%;
+    min-width: 325px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.thermometer {
+    width: 80px;
+    height: 300px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(100, 100, 100); */
+    background: linear-gradient(#db7336 25%,#182444 75%), url('../../assets/thermometer-blank.svg');
+    
+    -webkit-mask-image: url('../../assets/thermometer-blank.svg');
+    mask-image: url('../../assets/thermometer-blank.svg');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    
+    display: flex;
+    align-items: start;
+}
+
+.thermo-fill {
+    width: 100%;
+    background-color: rgb(197, 200, 206);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.temp-text {
+    /* color: rgb(36, 48, 83); */
+    color: #252525;
+    font-size: 18px;
+    position : absolute;
+    right: 0px;
+    margin: 0;
+}
